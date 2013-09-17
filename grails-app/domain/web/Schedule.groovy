@@ -19,3 +19,13 @@ class Schedule {
         collection "schedules"
     }
 }
+
+class Shortcut {
+    String id
+    String cod
+    String name
+
+    static mapping = {
+         version false
+    }
+}
