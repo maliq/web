@@ -57,7 +57,7 @@ grails.web.disable.multipart=false
 grails.exceptionresolver.params.exclude = ['password']
 
 // configure auto-caching of queries by default (if false you can cache individual queries with 'cache: true')
-grails.hibernate.cache.queries = false
+//grails.hibernate.cache.queries = false
 
 environments {
     development {
@@ -76,6 +76,10 @@ log4j = {
     //appenders {
     //    console name:'stdout', layout:pattern(conversionPattern: '%c{2} %m%n')
     //}
+
+    // Set level for all application artifacts
+    info "grails.app"
+    debug "com.mongodb"
 
     error  'org.codehaus.groovy.grails.web.servlet',        // controllers
            'org.codehaus.groovy.grails.web.pages',          // GSP

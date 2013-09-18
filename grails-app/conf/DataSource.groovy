@@ -2,7 +2,7 @@ grails {
     mongo {
         host = "localhost"
         port = 27017
-        databaseName = "ml2"
+        databaseName = "dev"
     }
 }
 
