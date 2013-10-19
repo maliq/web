@@ -5,3 +5,6 @@ target/
 target-eclipse/
 stacktrace.log
 .groovy/
+*.sublime-project
+
+*.sublime-workspace
