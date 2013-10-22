@@ -2,26 +2,23 @@ grails {
     mongo {
         host = "localhost"
         port = 27017
-        databaseName = "dev"
+        databaseName = "vtr"
     }
 }
 
 environments {
     development {
         mongo {
-            dbCreate = "create-drop"
-            databaseName ="dev"
+            databaseName ="vtr"
         }
     }
     test {
         mongo {
-            dbCreate = "update"
             databaseName ="test"
         }
     }
     production {
         mongo {
-            dbCreate = "update"
             databaseName ="prod"
         }
     }
